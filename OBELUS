@@ -1450,7 +1450,7 @@
         function library:window(properties)
             local cfg = {
                 name = properties.name or properties.Name or os.date('<font color="rgba(255, 255, 255, 1)">obelus</font> | %b %d %Y | %H:%M'),
-                size = properties.size or properties.Size or dim2(0, 800, 0, 700),
+                size = properties.size or properties.Size or dim2(0, 600, 0, 700),
                 selected_tab, 
                 is_closing_menu = false,
             }
