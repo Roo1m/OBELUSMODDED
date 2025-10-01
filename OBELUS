@@ -84,7 +84,7 @@
 
     local themes = {
         preset = {
-            ["accent"] = hex("#ffffffff"),
+            ["accent"] = hex("#AA55EB"),
             -- ["glow"] = hex("#AA55EB"), -- ignore
         }, 	
 
