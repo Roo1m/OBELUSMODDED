@@ -83,7 +83,7 @@
 
     local themes = {
         preset = {
-            accent = rgba(197, 28, 28, 1),
+            accent = rgba(255, 255, 255, 1),
             text = rgb(255, 255, 255),
             text_outline = rgb(0, 0, 0),
             a = Color3.fromRGB(0, 0, 0),
