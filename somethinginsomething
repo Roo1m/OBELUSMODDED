@@ -1,4 +1,4 @@
--- vaderhaxx modified
+-- vaderhaxx 
 -- Code from around october of 2024
 
 -- Variables 
@@ -83,7 +83,7 @@
 
     local themes = {
         preset = {
-            accent = rgba(255, 255, 255, 1),
+            accent = rgb(255, 255, 255),
             text = rgb(255, 255, 255),
             text_outline = rgb(0, 0, 0),
             a = Color3.fromRGB(0, 0, 0),
@@ -490,7 +490,7 @@
         function library:window(properties)
             local cfg = {
                 name = properties.name or properties.Name or "sigmaware.hackpaste",
-                size = properties.size or properties.Size or dim2(0, 600, 0, 700),
+                size = properties.size or properties.Size or dim2(0, 560, 0, 740),
                 selected_tab 
             }
 
@@ -2179,7 +2179,7 @@
                             BorderColor3 = rgb(0, 0, 0);
                             Size = dim2(1, -2, 1, -2);
                             BorderSizePixel = 0;
-                            BackgroundColor3 = rgba(190, 0, 0, 1)
+                            BackgroundColor3 = rgb(255, 194, 11)
                         });
                         
                         library:create("UIGradient", {
