@@ -1,4 +1,4 @@
--- REASON: Discontinued nobody wanted to buy it either... I can see why vaderhaxx was super ugly lol 
+-- vaderhax modified 
 -- Code from around october of 2024
 
 -- Variables 
@@ -490,7 +490,7 @@
         function library:window(properties)
             local cfg = {
                 name = properties.name or properties.Name or "sigmaware.hackpaste",
-                size = properties.size or properties.Size or dim2(0, 560, 0, 740),
+                size = properties.size or properties.Size or dim2(0, 550, 0, 600),
                 selected_tab 
             }
 
