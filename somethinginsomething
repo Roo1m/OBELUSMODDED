@@ -490,7 +490,7 @@
         function library:window(properties)
             local cfg = {
                 name = properties.name or properties.Name or "sigmaware.hackpaste",
-                size = properties.size or properties.Size or dim2(0, 550, 0, 600),
+                size = properties.size or properties.Size or dim2(0, 600, 0, 700),
                 selected_tab 
             }
 
